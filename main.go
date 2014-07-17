@@ -23,7 +23,7 @@ func PanicIf(err error) {
 }
 
 func SetupDB() {
-	client.Addr = "45367:192.168.3.241"
+	client.Addr = "192.168.3.241:45367"
   client.Db = 0
   client.Password = "a5dpr5q72kdca4bp5u89ugdcbfuo5si0"
   
