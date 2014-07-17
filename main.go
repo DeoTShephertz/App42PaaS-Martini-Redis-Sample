@@ -23,9 +23,9 @@ func PanicIf(err error) {
 }
 
 func SetupDB() {
-	client.Addr = "VM PORT:VM IP"
+	client.Addr = "45367:192.168.3.241"
   client.Db = 0
-  client.Password = "PASSWORD"
+  client.Password = "a5dpr5q72kdca4bp5u89ugdcbfuo5si0"
   
   //client.Addr = "127.0.0.1:6379"
   //client.Db = 0
